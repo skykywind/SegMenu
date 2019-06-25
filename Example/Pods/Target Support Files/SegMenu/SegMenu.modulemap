@@ -1,0 +1,6 @@
+framework module SegMenu {
+  umbrella header "SegMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SegMenu (0.1.0)
+
+DEPENDENCIES:
+  - SegMenu (from `../`)
+
+EXTERNAL SOURCES:
+  SegMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SegMenu: 2c7be4e334d6b5540ebb3d2fdb90083f08557a0b
+
+PODFILE CHECKSUM: da4a75d4c4bffd9d404c9fc7801d13f80452dc97
+
+COCOAPODS: 1.7.0.beta.2
