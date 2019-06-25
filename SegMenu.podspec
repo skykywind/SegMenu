@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A SegMenu for multiply categories App, such as News, Online Market'
   s.description      = <<-DESC
-A SegMenu for multiply categories App, such as News, Online Market. We can use it create a menu and sub controllers very easily
+A SegMenu for multiply categories App, such as News, Online Market. We can use it create a menu and sub controllers very easily.
                        DESC
 
   s.homepage         = 'https://github.com/skykywind/SegMenu'
