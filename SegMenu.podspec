@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SegMenu'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A SegMenu for multiply categories App, such as News, Online Market'
   s.description      = <<-DESC
 A SegMenu for multiply categories App, such as News, Online Market. We can use it create a menu and sub controllers very easily.
