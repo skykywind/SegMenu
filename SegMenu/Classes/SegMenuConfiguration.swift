@@ -35,7 +35,7 @@ public class SegMenuConfiguration {
     open var autoAdjustFontWithItemWidth: Bool  = false
     open var useMenuAsSegmentedControl: Bool    = false
     open var centerMenuItems:Bool               = false
-    open var enableHorizontalBounce: Bool       = true
+    open var enableHorizontalBounce: Bool       = false
     open var hideTopMenuBar:Bool                = false
     
     public init() {}

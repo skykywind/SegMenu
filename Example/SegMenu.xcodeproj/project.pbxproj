@@ -15,6 +15,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		DB68055D22C5CB9900A4D59B /* SimpleExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68055C22C5CB9900A4D59B /* SimpleExampleViewController.swift */; };
+		DB68055F22C5E01000A4D59B /* ConfigurationExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68055E22C5E01000A4D59B /* ConfigurationExampleViewController.swift */; };
+		DB68056122C9BB1F00A4D59B /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68056022C9BB1F00A4D59B /* OptionsViewController.swift */; };
+		DB68056322C9BEFE00A4D59B /* SegmentStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68056222C9BEFE00A4D59B /* SegmentStyleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		9F5121E537CCDB49EA193DFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB1F3CC9C3FC0EA89948858F /* Pods_SegMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0928A0C525C083823008E02 /* Pods-SegMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegMenu_Example.debug.xcconfig"; path = "Target Support Files/Pods-SegMenu_Example/Pods-SegMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB68055C22C5CB9900A4D59B /* SimpleExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExampleViewController.swift; sourceTree = "<group>"; };
+		DB68055E22C5E01000A4D59B /* ConfigurationExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationExampleViewController.swift; sourceTree = "<group>"; };
+		DB68056022C9BB1F00A4D59B /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		DB68056222C9BEFE00A4D59B /* SegmentStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentStyleViewController.swift; sourceTree = "<group>"; };
 		DE3B8250383DA15E7580E370 /* SegMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SegMenu.podspec; path = ../SegMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F97D0D0F0358E453A856EB38 /* Pods-SegMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegMenu_Tests.release.xcconfig"; path = "Target Support Files/Pods-SegMenu_Tests/Pods-SegMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +112,10 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				DB68055C22C5CB9900A4D59B /* SimpleExampleViewController.swift */,
+				DB68055E22C5E01000A4D59B /* ConfigurationExampleViewController.swift */,
+				DB68056022C9BB1F00A4D59B /* OptionsViewController.swift */,
+				DB68056222C9BEFE00A4D59B /* SegmentStyleViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -331,8 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB68056322C9BEFE00A4D59B /* SegmentStyleViewController.swift in Sources */,
+				DB68055D22C5CB9900A4D59B /* SimpleExampleViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				DB68055F22C5E01000A4D59B /* ConfigurationExampleViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				DB68056122C9BB1F00A4D59B /* OptionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
